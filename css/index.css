@@ -32,6 +32,8 @@
     font-family: 'Agdasima', sans-serif;
     font-family: 'Edu TAS Beginner', cursive;
     text-decoration: none;
+    animation: boxshadow infinite 1.5s;
+
 }
 body{
     animation: fundo-animado 3s infinite;
@@ -221,6 +223,18 @@ body img{
         right: 70dvw;
         top: 10dvw;
         rotate:-40deg;
+    }
+}
+
+@keyframes boxshadow{
+    0%{
+        box-shadow: 0px 0px 10px 10px rgb(0, 17, 255);
+    }
+    50%{
+        box-shadow: 0px 0px 0px 0px rgb(0, 200, 255);
+    }
+    100%{
+        box-shadow: 0px 0px 10px 10px rgb(0, 17, 255);
     }
 }
 
